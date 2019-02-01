@@ -1,0 +1,25 @@
+import React from 'react';
+
+export const AppContext = React.createContext();
+
+export class AppProvider extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            page: 'dashboard'
+        }
+    }
+    state = {
+
+    }
+
+    setPage = page => {
+        this.setState({
+            page,
+        })
+    }
+
+    render() {
+        return
+    }
+}
